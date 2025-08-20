@@ -22,7 +22,7 @@ class SSHTerminalManager:
         self.ssh_user = "hello"
         self.ssh_ip = "192.168.1.87"
         self.ssh_password = ""
-        self.terminal_count = 5
+        self.terminal_count = 3
         self.script_prefix = "video2gs_"
         self.working_dir = "/data/ycy/"
         self.env_command = "mamba activate 3dgs"
